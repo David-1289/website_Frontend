@@ -1,0 +1,57 @@
+.login {
+  position: relative;
+  margin-bottom: 50px;
+}
+.login .backImg {
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+.login .backImg img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  margin-top: 0;
+}
+.login .text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+.login .text h1 {
+  font-size: 40px;
+}
+.form{
+  margin-top: 40px;
+  width: 30%;
+}
+
+.lrlink{
+  margin-top: 20px;
+  outline: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  background-color: teal;
+  
+}
+.loginp{
+  display: flex;
+  margin-top: 20px;
+}
+.registerp{
+  display: flex;
+  margin-top: 20px;
+}
+.loginlink{
+  margin-left: 10px;
+}
+.registerlink{
+  margin-left: 10px;
+}
