@@ -63,7 +63,7 @@ export const Regsiter = () => {
             <input type='text' required onChange={userChange}/>
             <span>Password *</span>
             <input type='password' required onChange={passwordChange}/>
-            <span>Conform Password *</span>
+            <span>Confirm Password *</span>
             <input type='password' required onChange={passcodeChange}/>
             <button className='button' onClick={Regsiter}>Register</button>
             <div className="loginp" >
